@@ -45,7 +45,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 # OUTPUT
 
-![alt text](<Screenshot 2025-03-15 160301.png>)
+![alt text](<Screenshot 2025-03-15 160501.png>)
+
 
 
 ![alt text](<Screenshot 2025-03-15 154724.png>)
@@ -53,7 +54,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 # ER DIAGRAM
 
-![alt text](<Screenshot 2025-03-15 160501.png>)
+![alt text](<Screenshot 2025-03-15 160301.png>)
 
 
 
