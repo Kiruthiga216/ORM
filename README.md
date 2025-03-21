@@ -47,11 +47,25 @@ class EmployeeAdmin(admin.ModelAdmin):
     list_display=('eid','name','salary','age','email')
 
 
+urls.py
+
+
+    from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+
+
+
 ```
 # OUTPUT
 
 ![alt text](<Screenshot 2025-03-15 160501.png>)
 
+
+![alt text](<Screenshot 2025-03-21 163105.png>)
 
 
 ![alt text](<Screenshot 2025-03-15 154724.png>)
@@ -59,7 +73,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 # ER DIAGRAM
 
-![alt text](<Screenshot 2025-03-15 160301.png>)
+
+![alt text](<Screenshot 2025-03-21 161454.png>)
 
 
 
